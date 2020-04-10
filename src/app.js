@@ -17,10 +17,20 @@ app.get('/experiences', (req, res) => {
     res.render('landing/experiences');
 });
 
+// About me Page
+app.get('/aboutme', (req, res) => {
+    res.render('landing/aboutme');
+});
+
+// Contact me Page
+app.get('/contact', (req, res) => {
+    res.render('landing/contact');
+});
+/*
 app.get('/snakegame', (req, res) => {
     res.send('This will be the snake game page.');
 });
-
+*/
 app.listen(port, () => {
     console.log(`Server running on port ${port}. :)`);
 });
