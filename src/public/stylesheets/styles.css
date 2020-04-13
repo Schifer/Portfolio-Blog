@@ -183,52 +183,6 @@ section {
         }
 }
 
-/* Form styles */
-.wrapper {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    font-family: 'Roboto';
-    position: absolute;
-    transform: translateY(-50%);
-    width: 100%;
-    padding: 0 20px;
-}
-
-.contact-form {
-    max-width: 550px;
-    margin: 0 auto;
-    background: rgba(0,0,0,0.8);
-    border-radius: 5px;
-    display: flex;
-    box-shadow: 0 0 10px;
-}
-
-.input-fields {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;
-}
-
-.input-fields, .msg {
-    width: 48%;
-}
-
-.input-fields .input, .msg textarea {
-    margin: 10px 0;
-    background: transparent;
-    border-bottom: 2px solid #c5ecfd;
-    padding: 10px;
-    color: #c5cefd;
-    width: 100%;
-}
-
-.msg textarea {
-    height: 212px;
-
-}
-
 ::-webkit-input-placeholder {
     color: #c5ecfd;
 }
@@ -239,16 +193,6 @@ section {
 
 ::-ms-input-placeholder {
     color: #c5ecfd;
-}
-
-.btn {
-    background: #39b7dd;
-    text-align: center;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    text-transform: uppercase;
 }
 
 @media (max-width: 992px) {
